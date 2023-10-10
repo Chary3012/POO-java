@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/AnimalesAbstract/AnimalesAbstract.iml" filepath="$PROJECT_DIR$/AnimalesAbstract/AnimalesAbstract.iml" />
       <module fileurl="file://$PROJECT_DIR$/Futbol/Futbol.iml" filepath="$PROJECT_DIR$/Futbol/Futbol.iml" />
-=======
->>>>>>> origin/main
-      <module fileurl="file://$PROJECT_DIR$/POO-java.iml" filepath="$PROJECT_DIR$/POO-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/POO-java.iml" filepath="$PROJECT_DIR$/.idea/POO-java.iml" />
     </modules>
   </component>
 </project>
