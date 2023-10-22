@@ -11,6 +11,8 @@ public class Main {
         for(SeleccionFut integrantes : integrantes){
             System.out.println(integrantes.getName()+" "+ integrantes.getApellido());
             integrantes.viajar();
+            integrantes.entrenar();
+            integrantes.jugarPartido();
         }
 
 
