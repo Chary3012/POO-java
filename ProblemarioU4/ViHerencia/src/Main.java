@@ -14,12 +14,20 @@ public class Main {
         listVillanos.add(obj2);
         listVillanos.add(obj3);
 
+
+        /*
         for(int i = 0; i < listVillanos.size(); i++)
         {
-            System.out.println("Villano " + (i+1) );
-            System.out.println("Nombre: " + listVillanos.get(i).getNombre());
-            System.out.println("Edad: " + listVillanos.get(i).getEdad());
+            System.out.println("Elemento " + (i+1));
+            System.out.println(listVillanos.get(i));
             System.out.println(" ");
+        }
+
+         */
+
+        for (Villano vill:listVillanos) {
+
+            System.out.println(vill);
         }
 
     }

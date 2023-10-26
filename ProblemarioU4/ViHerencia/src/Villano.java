@@ -7,11 +7,21 @@ public class Villano {
         this.nombre = nombre;
     }
 
+    public Villano() {
+    }
+
     public int getEdad() {
         return edad;
     }
 
     public String getNombre() {
         return nombre;
+    }
+
+    @Override
+    public String toString() {
+        return "Villano\n" +
+                "Edad: " + edad +
+                ", Nombre: " + nombre;
     }
 }
