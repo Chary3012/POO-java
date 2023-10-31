@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EmpresaAgroalimenticia/EmpresaAgroalimenticia.iml" filepath="$PROJECT_DIR$/EmpresaAgroalimenticia/EmpresaAgroalimenticia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Figuras/Figuras.iml" filepath="$PROJECT_DIR$/Figuras/Figuras.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProblemarioU3.iml" filepath="$PROJECT_DIR$/ProblemarioU3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViHerencia/ViHerencia.iml" filepath="$PROJECT_DIR$/ViHerencia/ViHerencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VillanoInterfaces/VillanoInterfaces.iml" filepath="$PROJECT_DIR$/VillanoInterfaces/VillanoInterfaces.iml" />
+    </modules>
+  </component>
+</project>
