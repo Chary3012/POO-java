@@ -1,3 +1,5 @@
+package com.responsabilidadUnica;
+
 public class Factura {
 
     Libro libro;

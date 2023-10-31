@@ -1,3 +1,5 @@
+package com.responsabilidadUnica;
+
 public class FacturaImpresion {
     private Factura factura;
 
