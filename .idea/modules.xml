@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Exepciones/Exepciones.iml" filepath="$PROJECT_DIR$/Exepciones/Exepciones.iml" />
       <module fileurl="file://$PROJECT_DIR$/Futbol/Futbol.iml" filepath="$PROJECT_DIR$/Futbol/Futbol.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/POO-java.iml" filepath="$PROJECT_DIR$/.idea/POO-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOLID/SOLID.iml" filepath="$PROJECT_DIR$/SOLID/SOLID.iml" />
     </modules>
   </component>
 </project>
