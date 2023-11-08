@@ -5,5 +5,11 @@ public abstract class Figura{
 
     public abstract void imprimeArea();
 
+    public String nombre(){
+        return this.getClass().getSimpleName();
+    }
+
+
 
 }
+

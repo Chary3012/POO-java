@@ -13,11 +13,25 @@ public class Cuadrado extends Figura{
         this.lado = lado;
     }
 
+    public void validarLado(float lado) throws ExeptionFigura{
+        if(!(lado > 5)){
+            throw new ExeptionFigura("El lado tiene que ser mayor a 5");
+        }
+    }
+
     @Override
     public void pideDatos() {
-        System.out.println("Ingresa el lado: ");
-        float lado = sc.nextFloat();
-        this.lado = lado;
+        while(true){
+            try {
+                System.out.println("Ingresa el lado: ");
+                float lado = sc.nextFloat();
+                validarLado(lado);
+                this.lado = lado;
+                break;
+            }catch (ExeptionFigura e){
+                System.out.println(e.getMessage());
+            }
+        }
     }
 
     @Override

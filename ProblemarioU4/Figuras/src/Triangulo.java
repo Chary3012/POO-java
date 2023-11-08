@@ -15,17 +15,30 @@ public class Triangulo extends Figura {
         this.altura = altura;
     }
 
+    public void validarAltura(float base, float altura) throws ExeptionFigura{
+        if(!(altura >= base)){
+            throw new ExeptionFigura("La altura tiene que ser mayor o igual a la base");
+        }
+
+    }
 
     @Override
     public void pideDatos() {
-        System.out.println("Ingresa la base: ");
-        float base = sc.nextFloat();
-        System.out.println("Ingresa la altura: ");
-        float altura = sc.nextFloat();
 
-        this.base = base;
-        this.altura = altura;
-
+        while(true){
+            try {
+                System.out.println("Ingresa la base: ");
+                float base = sc.nextFloat();
+                System.out.println("Ingresa la altura: ");
+                float altura = sc.nextFloat();
+                validarAltura(base, altura);
+                this.base = base;
+                this.altura = altura;
+                break;
+            } catch (ExeptionFigura e) {
+                System.out.println(e.getMessage());
+            }
+        }
     }
 
     @Override
